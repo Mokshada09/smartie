@@ -1,0 +1,30 @@
+Steps1: Get API Key - Go to the *Google Cloud console • (Google Cloud Consolehttps: https://console.cloud.google.com/) and sign in with your Google Account 
+Steps2: Click the project drop-down menu in the top bar and select or create the project you want to use.
+Steps3: Click the hamburger menu in the top left and select APIs & Services >Select Youtube Data V3 API> Credentials.
+Steps4: Click the Create credentials button and select API key. 
+The API key will be displayed in a pop-up window. You can click the RESTRICT KEY button
+to restrict the API keys usage, such as by IP address or referrer. Click the COPY button to copy
+the API key to your clipboard.
+Steps5: You can use the API key in your application to access the Google Cloud APIs. Be sure
+to keep the API key confidential, as it can be used to access your Google Cloud resources.
+
+Colab link :
+https://colab.research.google.com/drive/1NBfcTZrQzy-K7IuM-NxQvW5FYgrT4i7Q?usp=sharing
+
+REPLACE THE API KEY WITH YOUR OWN 
+
+video ID is the ID after the "=" in the yt link
+eg : https://www.youtube.com/watch?v=Nnop2walGmM here, Nnop2walGmM is the video ID
+
+FOR POWER BI: Open https://www.screener.in/ and export excel file 
+Then execute the following steps:
+• Open PowerBI
+• Select Get Data as web
+• Enter URL
+• Select the table/tables to scrape 
+• Transform data – Select First Row as Header
+• Visualize the Data
+o Select the visualization type as horizontal bar chart
+o Select Coulumn 1 header
+o Select data values
+o Create visualizations- bar chart/ pie chart/ line chart, etc.
